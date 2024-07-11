@@ -1,7 +1,7 @@
 {
   "version": "independent",
   "npmClient": "yarn",
-  "useWorkspaces": true,
+  "packages": ["packages/*"],
   "command": {
     "publish": {
       "allowBranch": "master",
@@ -12,9 +12,8 @@
         "*.mdx",
         "*.txt",
         "*.test.*",
-        "*.docz.*",
         "ui-core/src/colors/**",
-        "new_doc/**"
+        "doc/**"
       ],
       "preDistTag": "beta",
       "registry": "https://registry.npmjs.org"
