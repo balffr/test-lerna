@@ -1,6 +1,6 @@
 {
   "name": "test-npm-pgk",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.0",
   "description": "test-npm-pgk",
   "main": "index.js",
   "scripts": {
