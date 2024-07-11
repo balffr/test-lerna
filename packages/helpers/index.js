@@ -1,1 +1,1 @@
-export const console = (msg) => console.log('alpha next: ' + msg);
+export const console = (msg) => console.log('alpha: ' + msg);
