@@ -1,1 +1,1 @@
-export const console = (msg) => console.log('beta: ' + msg);
+export const console = (msg) => console.log('beta-stable: ' + msg);
