@@ -1,0 +1,11 @@
+{
+  "name": "test-npm-pgk",
+  "version": "0.0.1",
+  "description": "test-npm-pgk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "balffr",
+  "license": "ISC"
+}
