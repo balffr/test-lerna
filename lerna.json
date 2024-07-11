@@ -1,4 +1,23 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "0.0.5-alpha.0"
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "message": "chore(release): release",
+      "ignoreChanges": [
+        "*.md",
+        "*.mdx",
+        "*.txt",
+        "*.test.*",
+        "*.docz.*",
+        "ui-core/src/colors/**",
+        "new_doc/**"
+      ],
+      "preDistTag": "beta",
+      "registry": "https://registry.npmjs.org"
+    }
+  }
 }
